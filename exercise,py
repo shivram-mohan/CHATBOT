@@ -1,0 +1,4 @@
+a = "They consumed a total of 6 fruits, including 3 apples and 3 oranges."
+b = a.replace('6', '3') 
+c = b.replace('3', '6')
+print(c)
