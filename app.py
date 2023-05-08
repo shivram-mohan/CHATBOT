@@ -2,8 +2,8 @@ import streamlit as st
 import openai
 from streamlit_chat import message
 
-
-openai.api_key = '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'
+#add your own secret key, it can be accessed from platform.openai.com ... go to api keys and generate a new one
+openai.api_key = open("key.txt","r").read().strip('\n')
 
 st.title("My Chatbot UI")
 response_container  = st.container()
